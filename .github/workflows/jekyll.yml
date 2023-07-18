@@ -2,7 +2,7 @@ name: Deploy Jekyll site to GitHub Pages
 on:
   push:
     branches:
-      - main  # 将此替换为您的主要分支名称，如 gh-pages、master
+      - master  # 将此替换为您的主要分支名称，如 gh-pages、master
 
 jobs:
   build:
